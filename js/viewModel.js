@@ -48,7 +48,7 @@ function createViewModel(elementSelector) {
 					available: false
 				},
 				work: {
-					available: true,
+					available: false,
 					showCounters: true,
 					showTestimonials: false
 				},
@@ -56,7 +56,7 @@ function createViewModel(elementSelector) {
 					available: false
 				},
 				contact: {
-					available: true,
+					available: false,
 					showFeedbackForm: false
 				}
 			}
