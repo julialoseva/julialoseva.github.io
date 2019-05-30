@@ -1,3 +1,15 @@
+[v-cloak] {
+  display: none;
+}
+
+ul.skills {
+  list-style: none;
+}
+
+ul.skills li:before {
+  content: '✓ ';
+} 
+
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
