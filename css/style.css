@@ -1262,3 +1262,11 @@ footer .credits a {
 [v-cloak] {
   display: none;
 }
+
+ul.skills {
+  list-style: none;
+}
+
+ul.skills li:before {
+  content: '✓ ';
+}

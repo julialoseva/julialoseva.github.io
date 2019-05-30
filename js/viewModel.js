@@ -24,7 +24,7 @@ function createViewModel(elementSelector) {
 					skills: [
 						new Skill(
 							"Java",
-							100
+							10
 						),
 						new Skill(
 							"Kotlin",
@@ -48,7 +48,7 @@ function createViewModel(elementSelector) {
 					available: false
 				},
 				work: {
-					available: false,
+					available: true,
 					showCounters: true,
 					showTestimonials: false
 				},
@@ -56,7 +56,7 @@ function createViewModel(elementSelector) {
 					available: false
 				},
 				contact: {
-					available: false,
+					available: true,
 					showFeedbackForm: false
 				}
 			}
