@@ -24,23 +24,23 @@ function createViewModel(elementSelector) {
 					skills: [
 						new Skill(
 							"Java",
-							10
+							80
 						),
 						new Skill(
 							"Kotlin",
-							100
+							60
 						),
 						new Skill(
 							"HTML",
-							100
+							50
 						),
 						new Skill(
 							"CSS",
-							100
+							50
 						),
 						new Skill(
 							"JavaScript",
-							100
+							50
 						)
 					]
 				},
